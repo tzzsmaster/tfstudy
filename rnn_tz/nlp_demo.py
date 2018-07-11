@@ -6,7 +6,7 @@
 """
 from tutorials.rnn.ptb import reader
 
-train_data, valid_data, test_data, _ = reader.ptb_raw_data("source_data/data")
+train_data, valid_data, test_data, _ = reader.ptb_raw_data("./source_data/rnn_tz/data/")
 print(len(train_data))
 print(train_data[:100])
 
