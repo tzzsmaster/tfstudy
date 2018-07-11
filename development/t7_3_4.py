@@ -4,7 +4,8 @@
 """
 
 import tensorflow as tf
-from t7_2_2 import preprocess_for_train
+
+from development.t7_2_2 import preprocess_for_train
 
 # 创建 输入文件队列
 files = tf.train.match_filenames_once("/path/to/file_pattern-*")
